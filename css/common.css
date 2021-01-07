@@ -1,0 +1,106 @@
+/*===========================================
+reset
+=============================================*/
+*{margin:0;padding:0}
+body{font-family: 'Open Sans', 'Noto Sans KR' , sans-serif;}
+ul,ol,li{list-style: none}
+img {border: 0}
+a {text-decoration: none;cursor: pointer}
+.clearfix::after {content: "";display:table;clear: both}
+
+
+
+/*===========================================
+공통
+=============================================*/
+#wrap{
+    width:100%;
+}
+section{
+    padding:70px 0 50px
+}
+.container {
+    width:1280px;
+    height: 100%;
+    margin:0 auto;
+}
+h2.tit {
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 70px;
+    font-weight: 700;
+}
+
+/*===========================================
+header
+=============================================*/
+header {
+    height: 115px;
+    line-height: 115px;
+}
+header h1 {
+    float: left;
+}
+header .nav {
+    display: flex;
+    justify-content: flex-end;
+}
+header .nav a{
+    /* display:block */
+    text-decoration: none;
+    color:black;
+}
+header ul.gnb li {
+    display: inline-block;
+    padding-right:20px
+}
+header .h_icon {
+   padding-right: 20px;
+}
+
+/*===========================================
+footer
+=============================================*/
+footer {
+    width: 100%;
+    padding: 70px 0 50px;
+    background-color: #211002;
+    text-align: center;
+    color:#c9c9c9
+}
+footer a {
+    text-decoration: none;
+    color:#c9c9c9
+}
+footer .container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+footer .menu{
+    text-align: center;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    /* 간격..... */
+}
+footer .menu li {
+    
+}
+footer p {
+    padding-bottom: 20px;
+}
+footer .menu li{
+    display: inline-block;
+}
+footer .f_icon {
+    display: flex;
+    justify-content: center;
+}
+footer .f_icon img {
+    width:30px;
+    height:30px
+}
+footer .f_icon p {
+    padding-left:10px
+}

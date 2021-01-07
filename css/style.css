@@ -1,0 +1,296 @@
+
+
+
+/*===========================================
+section01
+=============================================*/
+
+#section01{
+    background-image: url(../images/할슈타트.jpg);
+    background-repeat: no-repeat;
+    height: 1080px;
+    display:flex;
+    align-content: center;
+    color:#fff;
+    padding: 0px;
+}
+#section01 h3 {
+    font-size: 50px;
+    padding-bottom: 40px;
+}
+#section01 .container {
+    display:flex;
+    align-items: center;
+}
+
+
+
+/*===========================================
+section02
+=============================================*/
+#section02{
+    background-color:#ae7249;
+}
+/* #section02 .items li {
+} */
+#section02 .items .slick-slide{
+    margin-right:40px;
+}
+#section02 .items .img{  
+    height: 400px;
+    background-color:aqua;
+}
+#section02 .items .img img{
+    width:100%;
+    height:100%
+}
+#section02 .items .txt{
+    padding:40px;
+    background-color: white;
+}
+#section02 .items .txt p{
+    padding-bottom: 20px;
+}
+#section02 .items .txt h3{
+    padding-bottom: 20px;
+}
+#section02 .items button{
+    display:none !important;
+    
+}
+/* #section02 .items .slick_prev {
+    content:"1"
+}
+#section02 .items .slick_next {
+
+} */
+
+
+/*===========================================
+section03
+=============================================*/
+#section03{
+    background-color: #f3eae2;
+    padding-bottom: 30px;
+}
+#section03 .regional {
+    margin-bottom:40px;
+    width:100%;
+    text-align: center;
+}
+#section03 .regional li{
+    display:inline-block
+}
+#section03 .regional a{
+    color:black;
+    border-bottom:5px solid black;
+    margin-left:20px;
+    padding-bottom: 10px;
+}
+#section03 .regional .active{
+    color:orange;
+    border-bottom:5px solid orange;
+}
+#section03 .regional a:active,
+#section03 .regional a:hover
+{
+    color:orange;
+    border-bottom:5px solid orange;
+}
+/* #section03 .items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} */
+#section03 .items .item_wrap {
+    width:400px
+}
+#section03 .items .item_wrap:nth-child(2) {
+    padding:0 40px
+}
+#section03 .items .wrap {
+    display:flex;
+}
+#section03 .items li {
+    margin-bottom: 40px;
+}
+#section03 .items .img{  
+    height: 400px;
+    background-color:aqua;
+}
+#section03 .items .img img{
+    width:100%;
+    height:100%
+}
+#section03 .items .txt{
+    padding:40px;
+    box-sizing: border-box;
+    background-color: white;
+}
+#section03 .items .txt p{
+    padding-bottom: 20px;
+}
+#section03 .items .txt h3{
+    padding-bottom: 20px;
+}
+.tab-content {
+    display: none;
+}
+.tab-content.current{
+	display:block
+}
+/* .tab-content.current{
+	display:block
+} */
+/*===========================================
+section04
+=============================================*/
+#section04{
+    background-color: #efe1d4;
+    padding-bottom: 30px;
+}
+#section04 .today {
+    width:100%;
+    height:100%
+}
+#section04 .today li{
+    width: 100%;
+    padding-bottom: 40px;
+    display:flex;
+    align-content: space-between;
+}
+#section04 .today li > div{
+    width: 620px;
+    height: 620px;
+}
+#section04 .today li .today_img{
+    display: inline-block;
+    width: 620px;
+    height: 620px;
+}
+#section04 .today li .today_img img{
+    width:100%;
+    height:100%
+}
+#section04 .today li .today_txt {
+    display:flex;
+    align-items: center;
+}
+#section04 .today li:nth-child(odd) .img_left{
+    padding-right: 40px;
+}
+#section04 .today li:nth-child(even) .img_right{
+    padding-left: 40px;
+}
+#section04 .today .today_txt h3{
+    font-size: 26px;
+    padding-bottom: 40px;
+}
+#section04 .today .today_txt p {
+    font-size: 23px;
+    padding-bottom: 40px;
+}
+#section04 .today .today_btn {
+    display: inline-block;
+    padding: 20px 40px;
+    background-color: #ae7249;
+    color:#fff;
+    text-align: center;
+}
+
+/*===========================================
+section05
+=============================================*/
+#section05{
+    background:url(../images/비엔나.jpg);
+    color:white;
+}
+#section05 h4{
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+#section05 h3{
+    padding-bottom: 30px;
+    font-size: 25px;
+}
+#section05 p{
+    padding-bottom: 20px;
+    width: 50%;
+}
+
+
+/*===========================================
+section06
+=============================================*/
+#section06{
+    background-color: moccasin;
+    padding-bottom:30px
+}
+#section06 .festival{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#section06 .festival li {
+    width:620px;
+    height:520px;
+    text-align: center;
+    margin-bottom:40px;
+    color:white;
+    opacity: 0.7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#section06 .festival li h3 {
+    font-size: 30px;
+}
+#section06 .festival li p {
+    color:white;
+}
+#section06 .festival li:hover {
+    opacity: 1;
+}
+#section06 .festival li:nth-child(1){
+    background-image:url(../images/festival1.jpg);
+    background-size: cover ;
+}
+#section06 .festival li:nth-child(2){
+    background-image:url(../images/festival2.jpg);
+    background-size: cover ;
+}
+#section06 .festival li:nth-child(3){
+    background-image:url(../images/festival3.jpg);
+    background-size: cover ;
+}
+#section06 .festival li:nth-child(4){
+    background-image:url(../images/festival4.jpg);
+    background-size: cover ;
+}
+/*===========================================
+section07
+=============================================*/
+#section07{
+    background-color: antiquewhite;
+    padding-bottom: 30px;
+}
+#section07 .instagram{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#section07 .instagram li{
+    width:290px;
+    height: 350px;
+    margin-bottom: 40px;  
+}
+#section07 .instagram li a {
+    display: block;
+    width:290px;
+    height:330px
+}
+#section07 .instagram li img{
+    width: 100%;
+    height: 100%
+}
+
