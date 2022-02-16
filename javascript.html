@@ -5,49 +5,55 @@
 	<title>Title</title>
 </head>
 <body>
-	<div>
-		<script>
-			/*1.다음 배열에서 400, 500를 삭제하는 code를 입력하세요.*/
-			var num1 = [100, 200, 300, 400, 500]
-
-      num1.splice(3,2)
-			document.writeln(num1)
+	<div style="position:absolute; top: calc(50vh - 112.5px); left: calc(50vw - 150px);">
+		<lottie-player src="./data.json" background="transparent" style="width: 300px; height: 225px;" speed="1" loop autoplay>
+		</lottie-player>
+		</div>
+	<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
 
-			/*2.<pass>부분에 배열 내장함수를 이용하여 코드를 입력하고 다음과 같이 출력되게 하세요.*/
-			var num2 = [200, 100, 300];
-			//pass
-			console.log(num2);
-			// 출력값 [200, 100, 10000, 300]
 
-      num2.splice(2, 0, '10000')
+	<script>
+		/*1.다음 배열에서 400, 500를 삭제하는 code를 입력하세요.*/
+		var num1 = [100, 200, 300, 400, 500]
 
-
-      /*3.다음 출력 값으로 올바른 것은?*/
-			var num3 = [100, 200, 300];
-      console.log(typeof (num3));
-      //object 맞춤
+		num1.splice(3,2)
+		document.writeln(num1)
 
 
-			/*4.다음 변수 a를 typeof(a)로 넣었을 때 출력될 값과의 연결이 알맞지 않은 것은?*/
-			//2 console.log(typeof(2.22)) 맞춤
+		/*2.<pass>부분에 배열 내장함수를 이용하여 코드를 입력하고 다음과 같이 출력되게 하세요.*/
+		var num2 = [200, 100, 300];
+		//pass
+		console.log(num2);
+		// 출력값 [200, 100, 10000, 300]
+
+		num2.splice(2, 0, '10000')
 
 
-			/*5.다음 코드의 출력 값으로 알맞은 것은?*/
-			var a = 10;
-			var b = 2;
-
-			for (var i=1; i<5; i+=2){
-				a += i;
-			}
-			console.log(a+b)
-			//16
-
-			/*6.true 찾기*/
-			//1
+		/*3.다음 출력 값으로 올바른 것은?*/
+		var num3 = [100, 200, 300];
+		console.log(typeof (num3));
+		//object 맞춤
 
 
-		</script>
-	</div>
+		/*4.다음 변수 a를 typeof(a)로 넣었을 때 출력될 값과의 연결이 알맞지 않은 것은?*/
+		//2 console.log(typeof(2.22)) 맞춤
+
+
+		/*5.다음 코드의 출력 값으로 알맞은 것은?*/
+		var a = 10;
+		var b = 2;
+
+		for (var i=1; i<5; i+=2){
+			a += i;
+		}
+		console.log(a+b)
+		//16
+
+		/*6.true 찾기*/
+		//1
+
+
+	</script>
 </body>
 </html>
